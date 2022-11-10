@@ -52,7 +52,7 @@
   <main class="flex-shrink-0 container mt-5">
     <nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="/"><h5><b>PossibleCorg</b></h5></a>
+  <a class="navbar-brand" href="/"><h5><b>Data Visualisation Course</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
@@ -73,25 +73,41 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h2 id="group-15---vishwa-pancholivhp2-and-sonam-kumari-sonamk2">Group 15 - Vishwa Pancholi(vhp2) and Sonam Kumari (sonamk2)</h2>
+  <h1 id="assignment-10">Assignment 10</h1>
+
+<h5 id="group-15---vishwa-pancholivhp2-and-sonam-kumari-sonamk2">Group 15 - Vishwa Pancholi(vhp2) and Sonam Kumari (sonamk2)</h5>
 
 <p>Data Viz 1:</p>
 
+<p>Relationship between mean square footage and building status</p>
+
 <vegachart schema-url="/assets/json/sqaurefootage_wrt_bldgstatus.json" style="width: 100%"></vegachart>
 
-<p>Little more text :</p>
+<p>The above scatter plot shows the relationship between mean sqaure footage and building status. We have considered quantitative encoding for square footage and nominal for building status. We have not used any specific colour scheme for the plot.The x axis ranges from 0 to 20,000. In progress buildings have most sqaure footage.</p>
 
 <p>Data Viz 2:</p>
 
-<vegachart schema-url="/assets/json/usage_description.json" style="width: 100%"></vegachart>
+<p>Agency Frequency</p>
 
-<p>Little more text :</p>
+<vegachart schema-url="/assets/json/agency_frequency.json" style="width: 100%"></vegachart>
+
+<p>In the above graph we can see the frequency each agency. We have considered nominal encoding for agency name as it is categorical variable.We have not used any particular color scheme for this plot. Department of Natural Resource has the highest count of records which is nearly 3,250.</p>
 
 <p>Data Viz 3:</p>
 
+<p>Interactive Usage Description over years</p>
+
+<vegachart schema-url="/assets/json/usage_description.json" style="width: 100%"></vegachart>
+
+<p>In the above interactive graph we have plotted the Year Constructed on X axis and sum of square footage on Y-axis. The usage description is used as legend and the color is dependent on it. We have considered temporal enciding for year constructed, quantitative for square footage and nominal for usage description.The color scheme of tableau20 is dependent on legend(usage description). When you click on any legend (usgae description) , the data for that particular selection is highlighted.</p>
+
+<p>Data Viz 4:</p>
+
+<p>Interactive heat map and line chart</p>
+
 <vegachart schema-url="/assets/json/heatmap_linechart.json" style="width: 100%"></vegachart>
 
-<p>Little more text :</p>
+<p>In the above graphs the first one is a heatmap that shows a relationship between Usage Description and Agency Name on Y-axis and X-axis respectively.We have considered nominal encoding for usage desciption and agency name while for square footage we have taken quantitative encoding. The color of heat map is represented by median of Square Footage. When we are selecting any value(tile) here accordingly the plot in the side line graph shows mean of square footage over Year Acquired for that particular usage description and agency name selection. In the second graph which is interactive we have also used building status for legend and define color. We have taken temporal encoding for year acquired , quantitative for square footage and nominal for building status.I have taken tableau20 to define color which is represented by building status.</p>
 
 <!-- these are written in a combo of html and liquid -->
 
@@ -114,7 +130,7 @@
 
   <small class="text-muted mb-2">
     <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
-    by <strong>A. P. Corgi</strong>
+    by <strong>Group 15</strong>
   </small>
 
   <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://www.behance.net/your_username"
@@ -127,12 +143,7 @@
        onMouseOver="this.style.color='#db4437'"
        onMouseOut="this.style.color='#6c757d'">
       <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.facebook.com/your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#3b5998'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-facebook fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.github.com/jnaiman"
+    </a><a class="social mx-1"  href="https://www.github.com/vishwa79"
        style="color: #6c757d"
        onMouseOver="this.style.color='#333333'"
        onMouseOut="this.style.color='#6c757d'">
@@ -142,31 +153,6 @@
        onMouseOver="this.style.color='#007bb5'"
        onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-linkedin-in fa-1x"></i>
-    </a><a class="social mx-1"  href="https://medium.com/@your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#00ab6c'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-medium fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.twitch.tv/your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#6441a5'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-twitch fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.twitter.com/your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#1da1f2'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-twitter fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.vimeo.com/your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#162221'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-vimeo-v fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.youtube.com/your_channel_name"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#ff0000'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-youtube fa-1x"></i>
     </a>
 
 </div><small id="attribution">
