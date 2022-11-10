@@ -6,7 +6,7 @@
 
 ### Site Settings ###
 title               : Data Visualisation Course
-description         : ""
+description         : This site hosts assignments and project for IS 445 Data Visualisation course
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : https://github.com/Vishwa79/vishwa79.github.io.git               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
@@ -34,7 +34,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Group 15
-  image             : https://dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg
+  image             : "https://marketing.illinois.edu/wp-content/uploads/2021/09/block-I-orange-background.png" 
   behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
