@@ -37,7 +37,7 @@ We can observe from above that Restaurants and diners has most records which mak
 Let's now examine the risk type. Risk can be classified as high, medium, or low. Over 70% of the audited locations had high risk. The second one is medium and has a participation rate of about 20%. The third one is low risk (every 11 spot has such a risk). There are also a few places which come under all risk types.
 <vegachart schema-url="{{ site.baseurl }}/assets/json/result_bar.json" style="width: 100%"></vegachart>
 
-Now coming to risk , we observe that most facilities got pass(more than 50%).The second one is "Fail"; following control, almost 6 thousand people don't receive a favorable impression. Popularity also works with restrictions (more than 10% of spots produced that result). Rarely do circumstances arise where doors are closed, a location isn't suitable for control, or even doesn't exist.
+Now coming to results , we observe that most facilities got pass(more than 50%).The second one is "Fail"; following control, almost 6 thousand people don't receive a favorable impression. Popularity also works with restrictions (more than 10% of spots produced that result). Rarely do circumstances arise where doors are closed, a location isn't suitable for control, or even doesn't exist.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/heatmap1.json" style="width: 100%"></vegachart>
 It's time to compare the information we know about the danger and various kinds of controls. Combination passes and high risk are the most common (almost half of controls). The second one (4762) is fail and high risk. The last combination over 10% pass with medium risk. There appears to be no relationship between these two factors.
@@ -54,6 +54,6 @@ To conclude we can say that more than 50% of facilities pass inspection without 
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/Vishwa79/vishwa79.github.io/blob/main/python_notebooks/group15-pancholi-vishwa-kumari-sonam-assignment10.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/Vishwa79/vishwa79.github.io/blob/main/python_notebooks/group15-pancholi-vishwa-kumari-sonam-final-project.ipynb" text="The Analysis" %}
 </div>
 
