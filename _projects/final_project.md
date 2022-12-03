@@ -47,6 +47,15 @@ It's time to compare the information we know about the danger and various kinds 
 The dashboard represents 2 graph, first one is the heat map which is similar to one represented before and it provides information about relationship between results and risk. The color of the tile helps in determining the number of records of facility category for each combination, a tile from it can be chosen to further see the stacked bar chart for distribution of various facility categories. We observe that only grocery stores which provide food have 'All' type of risk category and result as no entry.There are no facilities which low risk and business not located. Coming to the most relevant combination as determined above, is of Pass with high risk and the stacked bar chart shows that most of the records are restaurants.
 
 To conclude we can say that more than 50% of facilities pass inspection without any requirements (20% fail).Most places have a first category of danger (high).No restaurant facility has a lower risk profile more frequently than eateries.The center has the maximum spot density (around Chicago Theater, Millenium Park and Willis Tower).In Chicago, there is no spatial separation between different risk and control kinds.
+
+
+Refrences :
+- Dataset : https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5
+- https://vega.github.io/vega-lite/docs/type.html#:~:text=The%20supported%20data%20types%20are,%22%20%2C%20and%20%22geojson%22%20.
+- https://altair-viz.github.io/
+
+
+
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
