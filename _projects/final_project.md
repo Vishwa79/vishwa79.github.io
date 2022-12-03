@@ -1,7 +1,7 @@
 ---
 name: Chicago Food Inspection
 tools: [Python, vega-lite,altair,Jekyll]
-image: assets/pngs/building.png
+image: assets/pngs/inspection.png
 description: This article will help in determining where to eat in chicago in order to be safe and which areas of the city should be avoided.
 custom_js:
   - vega.min
