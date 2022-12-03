@@ -5,8 +5,8 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : Data Visualisation Course
-description         : This site hosts assignments and project for IS 445 Data Visualisation course
+title               : Chicago Food Inspection
+description         : This site hosts a brief analysis of food inspection data across various food consumption sites.
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : https://github.com/Vishwa79/vishwa79.github.io.git               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
@@ -35,15 +35,15 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Group 15
   image             : "https://marketing.illinois.edu/wp-content/uploads/2021/09/block-I-orange-background.png" 
-  behance           : your_username
+# behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+#  email             : username@domain.com
 #  facebook          : your_username
   github            : vishwa79 # JPN
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
+# linkedin          : your_username
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
@@ -57,7 +57,7 @@ author:
 
 
 ### Posts ###
-permalink: /blog/:title
+#permalink: /blog/:title
 
 
 ### Collections ###
