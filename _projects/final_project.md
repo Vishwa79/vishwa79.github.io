@@ -38,6 +38,9 @@ Let's now examine the risk type. Risk can be classified as high, medium, or low.
 <vegachart schema-url="{{ site.baseurl }}/assets/json/result_bar.json" style="width: 100%"></vegachart>
 
 Now coming to results , we observe that most facilities got pass(more than 50%).The second one is "Fail"; following control, almost 6 thousand people don't receive a favorable impression. Popularity also works with restrictions (more than 10% of spots produced that result). Rarely do circumstances arise where doors are closed, a location isn't suitable for control, or even doesn't exist.
+<vegachart schema-url="{{ site.baseurl }}/assets/json/newyork.json" style="width: 100%"></vegachart>
+
+Similar to Chicago , we can see the distribution of Inspection Type in New York city which provides more context to our Chicago investigation. Note : The chart is created by us using new york public data.
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/heatmap1.json" style="width: 100%"></vegachart>
 It's time to compare the information we know about the danger and various kinds of controls. Combination passes and high risk are the most common (almost half of controls). The second one (4762) is fail and high risk. The last combination over 10% pass with medium risk. There appears to be no relationship between these two factors.
@@ -51,6 +54,7 @@ To conclude we can say that more than 50% of facilities pass inspection without 
 
 Refrences :
 - Dataset : https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5
+- Dataset (New York) : https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j
 - https://vega.github.io/vega-lite/docs/type.html#:~:text=The%20supported%20data%20types%20are,%22%20%2C%20and%20%22geojson%22%20.
 - https://altair-viz.github.io/
 
